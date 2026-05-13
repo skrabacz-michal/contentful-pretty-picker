@@ -6,7 +6,10 @@
       "Bash(npm run *)",
       "WebFetch(domain:www.contentful.com)",
       "Bash(convert -size 128x128 /Users/mskrabacz/develop/repos/dka/github/contentful-pretty-picker/public/icon.svg /tmp/icon_test.png)",
-      "Bash(magick /Users/mskrabacz/develop/repos/dka/github/contentful-pretty-picker/public/icon.svg -resize 128x128 /Users/mskrabacz/develop/repos/dka/github/contentful-pretty-picker/public/icon.png)"
+      "Bash(magick /Users/mskrabacz/develop/repos/dka/github/contentful-pretty-picker/public/icon.svg -resize 128x128 /Users/mskrabacz/develop/repos/dka/github/contentful-pretty-picker/public/icon.png)",
+      "Bash(magick /Users/mskrabacz/develop/repos/dka/github/contentful-pretty-picker/art/pretty_picker_icon_v2.svg -gravity center -background none -resize 128x128 /Users/mskrabacz/develop/repos/dka/github/contentful-pretty-picker/public/icon.png)",
+      "Bash(magick -density 192 /Users/mskrabacz/develop/repos/dka/github/contentful-pretty-picker/art/pretty_picker_icon_v2.svg -trim -resize 128x128 /Users/mskrabacz/develop/repos/dka/github/contentful-pretty-picker/public/icon.png)",
+      "Bash(magick -density 192 /tmp/icon_clean.svg -trim -resize 128x128 /Users/mskrabacz/develop/repos/dka/github/contentful-pretty-picker/public/icon.png)"
     ]
   }
 }

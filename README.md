@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./art/pretty_picker_icon_v2.svg" alt="PrettyPicker" width="200"/>
+</p>
+
 # contentful-pretty-picker
 
 A Contentful UI app that replaces the default short-text dropdown with a richer picker that automatically transforms raw field values into human-readable labels.
