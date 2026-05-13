@@ -3,7 +3,10 @@
     "allow": [
       "Bash(npx create-contentful-app@latest *)",
       "Bash(npm test *)",
-      "Bash(npm run *)"
+      "Bash(npm run *)",
+      "WebFetch(domain:www.contentful.com)",
+      "Bash(convert -size 128x128 /Users/mskrabacz/develop/repos/dka/github/contentful-pretty-picker/public/icon.svg /tmp/icon_test.png)",
+      "Bash(magick /Users/mskrabacz/develop/repos/dka/github/contentful-pretty-picker/public/icon.svg -resize 128x128 /Users/mskrabacz/develop/repos/dka/github/contentful-pretty-picker/public/icon.png)"
     ]
   }
 }
